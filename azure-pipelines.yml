@@ -54,8 +54,8 @@ steps:
     apikey: 'Yqsx9T83A5T1vENxaU4n5KGupOSNAOHnLl48'
     platform: 'android'
     resultsDir: '$(Build.ArtifactStagingDirectory)/KryptowireResults'
-    maxAnalysisTime: 75
-    scoreThreshold: 70
+    maxAnalysisTime: 60
+    scoreThreshold: 40
     
 
 - task: PublishBuildArtifacts@1
